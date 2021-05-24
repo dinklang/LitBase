@@ -3,23 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		966BCA8C264A3C8B00A8C6DE /* LitDatabaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BCA8B264A3C8B00A8C6DE /* LitDatabaseApp.swift */; };
+		966BCA8C264A3C8B00A8C6DE /* LitBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BCA8B264A3C8B00A8C6DE /* LitBase.swift */; };
 		966BCA8E264A3C8B00A8C6DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BCA8D264A3C8B00A8C6DE /* ContentView.swift */; };
 		966BCA90264A3C8B00A8C6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966BCA8F264A3C8B00A8C6DE /* Assets.xcassets */; };
 		966BCA93264A3C8B00A8C6DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966BCA92264A3C8B00A8C6DE /* Preview Assets.xcassets */; };
+		966BCA9D264A5EB200A8C6DE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BCA9C264A5EB200A8C6DE /* Home.swift */; };
+		969B78A6265BF61400C1B2F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 969B78A5265BF61400C1B2F4 /* GoogleService-Info.plist */; };
+		96D58667265C0D59004FF075 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D58666265C0D59004FF075 /* TaskRepository.swift */; };
+		96F800502651C39900E0A2A6 /* Detailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8004F2651C39900E0A2A6 /* Detailed.swift */; };
+		96F8005226584F3A00E0A2A6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8005126584F3A00E0A2A6 /* Task.swift */; };
+		96F8006F265A115100E0A2A6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8006E265A115100E0A2A6 /* HomeViewModel.swift */; };
+		96F80072265AE01500E0A2A6 /* BlueButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F80071265AE01500E0A2A6 /* BlueButtonViewModel.swift */; };
+		CD7C644D3DFFBABA6F597D46 /* Pods_LitBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F865F43B29CA6B095B90DA /* Pods_LitBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		966BCA88264A3C8B00A8C6DE /* LitDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LitDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		966BCA8B264A3C8B00A8C6DE /* LitDatabaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitDatabaseApp.swift; sourceTree = "<group>"; };
+		42F865F43B29CA6B095B90DA /* Pods_LitBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LitBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE17F7FF27E714899819163 /* Pods-LitBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LitBase.debug.xcconfig"; path = "Target Support Files/Pods-LitBase/Pods-LitBase.debug.xcconfig"; sourceTree = "<group>"; };
+		966BCA88264A3C8B00A8C6DE /* LitBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LitBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966BCA8B264A3C8B00A8C6DE /* LitBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitBase.swift; sourceTree = "<group>"; };
 		966BCA8D264A3C8B00A8C6DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		966BCA8F264A3C8B00A8C6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966BCA92264A3C8B00A8C6DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		966BCA94264A3C8B00A8C6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966BCA9C264A5EB200A8C6DE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		969B78A5265BF61400C1B2F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96D58666265C0D59004FF075 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		96F8004F2651C39900E0A2A6 /* Detailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detailed.swift; sourceTree = "<group>"; };
+		96F8005126584F3A00E0A2A6 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		96F8006E265A115100E0A2A6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		96F80071265AE01500E0A2A6 /* BlueButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonViewModel.swift; sourceTree = "<group>"; };
+		A49C56143FF12DF7BD46FE21 /* Pods-LitBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LitBase.release.xcconfig"; path = "Target Support Files/Pods-LitBase/Pods-LitBase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,38 +45,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7C644D3DFFBABA6F597D46 /* Pods_LitBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171602423D269E83FBC47180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42F865F43B29CA6B095B90DA /* Pods_LitBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		966BCA7F264A3C8A00A8C6DE = {
 			isa = PBXGroup;
 			children = (
-				966BCA8A264A3C8B00A8C6DE /* LitDatabase */,
+				966BCA8A264A3C8B00A8C6DE /* LitBase */,
 				966BCA89264A3C8B00A8C6DE /* Products */,
+				FAD81FAC81601112BD7EF420 /* Pods */,
+				171602423D269E83FBC47180 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		966BCA89264A3C8B00A8C6DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				966BCA88264A3C8B00A8C6DE /* LitDatabase.app */,
+				966BCA88264A3C8B00A8C6DE /* LitBase.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		966BCA8A264A3C8B00A8C6DE /* LitDatabase */ = {
+		966BCA8A264A3C8B00A8C6DE /* LitBase */ = {
 			isa = PBXGroup;
 			children = (
-				966BCA8B264A3C8B00A8C6DE /* LitDatabaseApp.swift */,
+				966BCA8B264A3C8B00A8C6DE /* LitBase.swift */,
 				966BCA8D264A3C8B00A8C6DE /* ContentView.swift */,
+				966BCA9C264A5EB200A8C6DE /* Home.swift */,
+				96F8004F2651C39900E0A2A6 /* Detailed.swift */,
+				96F8005126584F3A00E0A2A6 /* Task.swift */,
+				96D58665265C0D02004FF075 /* Repositories */,
+				96F80070265ADFFF00E0A2A6 /* ViewModels */,
 				966BCA8F264A3C8B00A8C6DE /* Assets.xcassets */,
 				966BCA94264A3C8B00A8C6DE /* Info.plist */,
+				969B78A5265BF61400C1B2F4 /* GoogleService-Info.plist */,
 				966BCA91264A3C8B00A8C6DE /* Preview Content */,
 			);
-			path = LitDatabase;
+			path = LitBase;
 			sourceTree = "<group>";
 		};
 		966BCA91264A3C8B00A8C6DE /* Preview Content */ = {
@@ -69,24 +104,52 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		96D58665265C0D02004FF075 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				96D58666265C0D59004FF075 /* TaskRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		96F80070265ADFFF00E0A2A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				96F8006E265A115100E0A2A6 /* HomeViewModel.swift */,
+				96F80071265AE01500E0A2A6 /* BlueButtonViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FAD81FAC81601112BD7EF420 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EE17F7FF27E714899819163 /* Pods-LitBase.debug.xcconfig */,
+				A49C56143FF12DF7BD46FE21 /* Pods-LitBase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		966BCA87264A3C8B00A8C6DE /* LitDatabase */ = {
+		966BCA87264A3C8B00A8C6DE /* LitBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 966BCA97264A3C8B00A8C6DE /* Build configuration list for PBXNativeTarget "LitDatabase" */;
+			buildConfigurationList = 966BCA97264A3C8B00A8C6DE /* Build configuration list for PBXNativeTarget "LitBase" */;
 			buildPhases = (
+				2824EBBC12A504E7A29F42C5 /* [CP] Check Pods Manifest.lock */,
 				966BCA84264A3C8B00A8C6DE /* Sources */,
 				966BCA85264A3C8B00A8C6DE /* Frameworks */,
 				966BCA86264A3C8B00A8C6DE /* Resources */,
+				46E35D18A090116ED84D8956 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LitDatabase;
+			name = LitBase;
 			productName = LitDatabase;
-			productReference = 966BCA88264A3C8B00A8C6DE /* LitDatabase.app */;
+			productReference = 966BCA88264A3C8B00A8C6DE /* LitBase.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 966BCA83264A3C8A00A8C6DE /* Build configuration list for PBXProject "LitDatabase" */;
+			buildConfigurationList = 966BCA83264A3C8A00A8C6DE /* Build configuration list for PBXProject "LitBase" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				966BCA87264A3C8B00A8C6DE /* LitDatabase */,
+				966BCA87264A3C8B00A8C6DE /* LitBase */,
 			);
 		};
 /* End PBXProject section */
@@ -128,18 +191,67 @@
 			files = (
 				966BCA93264A3C8B00A8C6DE /* Preview Assets.xcassets in Resources */,
 				966BCA90264A3C8B00A8C6DE /* Assets.xcassets in Resources */,
+				969B78A6265BF61400C1B2F4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2824EBBC12A504E7A29F42C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LitBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46E35D18A090116ED84D8956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LitBase/Pods-LitBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LitBase/Pods-LitBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LitBase/Pods-LitBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		966BCA84264A3C8B00A8C6DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F80072265AE01500E0A2A6 /* BlueButtonViewModel.swift in Sources */,
+				96F800502651C39900E0A2A6 /* Detailed.swift in Sources */,
 				966BCA8E264A3C8B00A8C6DE /* ContentView.swift in Sources */,
-				966BCA8C264A3C8B00A8C6DE /* LitDatabaseApp.swift in Sources */,
+				966BCA9D264A5EB200A8C6DE /* Home.swift in Sources */,
+				96F8005226584F3A00E0A2A6 /* Task.swift in Sources */,
+				96D58667265C0D59004FF075 /* TaskRepository.swift in Sources */,
+				966BCA8C264A3C8B00A8C6DE /* LitBase.swift in Sources */,
+				96F8006F265A115100E0A2A6 /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,19 +376,21 @@
 		};
 		966BCA98264A3C8B00A8C6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE17F7FF27E714899819163 /* Pods-LitBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"LitDatabase/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LitBase/Preview Content\"";
+				DEVELOPMENT_TEAM = ASZL82W7BK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LitDatabase/Info.plist;
+				INFOPLIST_FILE = LitBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = droski.LitDatabase;
+				PRODUCT_BUNDLE_IDENTIFIER = droski.LitBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -285,19 +399,21 @@
 		};
 		966BCA99264A3C8B00A8C6DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49C56143FF12DF7BD46FE21 /* Pods-LitBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"LitDatabase/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LitBase/Preview Content\"";
+				DEVELOPMENT_TEAM = ASZL82W7BK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LitDatabase/Info.plist;
+				INFOPLIST_FILE = LitBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = droski.LitDatabase;
+				PRODUCT_BUNDLE_IDENTIFIER = droski.LitBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +423,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		966BCA83264A3C8A00A8C6DE /* Build configuration list for PBXProject "LitDatabase" */ = {
+		966BCA83264A3C8A00A8C6DE /* Build configuration list for PBXProject "LitBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				966BCA95264A3C8B00A8C6DE /* Debug */,
@@ -316,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		966BCA97264A3C8B00A8C6DE /* Build configuration list for PBXNativeTarget "LitDatabase" */ = {
+		966BCA97264A3C8B00A8C6DE /* Build configuration list for PBXNativeTarget "LitBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				966BCA98264A3C8B00A8C6DE /* Debug */,
